@@ -1,0 +1,37 @@
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.hero-section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.hero-section h1 {
+    font-size: 40px;
+    padding: 10px;
+    font-weight: 600;
+    width: 70%;
+    text-align: center;
+}
+.hero-section h1 span{
+    background: linear-gradient(90deg,#DA7C25 0.36%, #B923E1 102.3%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-section p {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+
+
