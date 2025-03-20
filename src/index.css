@@ -23,3 +23,9 @@ body {
 .connect-btn:hover{
   transform:scale(1.05) ;
 }
+.about-title{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}

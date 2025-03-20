@@ -1,0 +1,35 @@
+.skills-section {
+
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 40px;
+    margin: 20px 40px;
+}
+
+.skills {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    /* Space between items */
+    margin: 60px 40px;
+}
+
+.skill {
+    
+    flex-basis: calc(23% - 10px);
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #404040;
+    border-radius: 17%;
+    box-shadow: 3px 1px #3b3b3b;
+    width: 100px;
+   
+}
+
+.skill-img {
+    width: 70px;
+    height: 70px;
+}
